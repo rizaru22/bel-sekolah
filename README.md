@@ -41,19 +41,19 @@ Dilengkapi dengan fitur **CRUD jadwal bel**, **pemilihan file audio (MP3)**, ser
    python -m venv venv
    source venv/bin/activate   # Linux/Mac
    venv\Scripts\activate      # Windows
-   ```
+````
 
 3. **Install dependencies**
 
    ```bash
    pip install -r requirements.txt
-   ```
+````
 
    Isi file `requirements.txt`:
 
    ```
    playsound
-   ```
+````
 
    (library lain seperti `tkinter` dan `sqlite3` sudah bawaan Python)
 
@@ -61,7 +61,7 @@ Dilengkapi dengan fitur **CRUD jadwal bel**, **pemilihan file audio (MP3)**, ser
 
    ```bash
    python bel_app.py
-   ```
+````
 
 ---
 

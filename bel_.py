@@ -13,8 +13,8 @@ class BelApp(tk.Tk):
         self.title("Aplikasi Bel Sekolah Sederhana")
        
         self.geometry("500x400")
-        self.interface()
         self.create_database()
+        self.interface()
         
         self.running=True
         threading.Thread(target=self.cek_jadwal, daemon=True).start()

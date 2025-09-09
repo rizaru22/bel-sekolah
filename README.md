@@ -1,9 +1,10 @@
+
 # 🔔 Aplikasi Bel Sekolah Otomatis (Python + Tkinter)
 
 Aplikasi ini adalah **bel sekolah otomatis** berbasis **Python, Tkinter, dan SQLite**, yang dapat memutar suara bel sesuai jadwal yang sudah ditentukan.  
 Dilengkapi dengan fitur **CRUD jadwal bel**, **pemilihan file audio (MP3)**, serta **log aktivitas** setiap bel yang dibunyikan.
 
----
+
 
 ## ✨ Fitur Utama
 
@@ -21,51 +22,32 @@ Dilengkapi dengan fitur **CRUD jadwal bel**, **pemilihan file audio (MP3)**, ser
 - 🕒 **Otomatis berbunyi sesuai jadwal** dengan sistem thread.  
 - 🌍 **Bahasa Indonesia** → hari ditampilkan sesuai format lokal (`Senin - Sabtu`).
 
----
-
-
-
-
 
 ## ⚙️ Instalasi
 
 1. **Clone repositori**
-   ```bash
-   git clone https://github.com/username/bel-sekolah.git
-   cd bel-sekolah
-  ````
 
+```bash
+ git clone https://github.com/username/bel-sekolah.git
+ cd bel-sekolah
+```
 2. **Buat virtual environment (opsional, tapi disarankan)**
-
    ```bash
    python -m venv venv
    source venv/bin/activate   # Linux/Mac
    venv\Scripts\activate      # Windows
-  ````
-
+    ```
 3. **Install dependencies**
 
    ```bash
-   pip install -r requirements.txt
-````
-
-   Isi file `requirements.txt`:
-
-   ```
-   playsound
-  ````
-
-   (library lain seperti `tkinter` dan `sqlite3` sudah bawaan Python)
-
+   pip install playsound
+    ```
 4. **Jalankan aplikasi**
 
    ```bash
    python bel_app.py
-  ````
-
----
-
-## 📂 Struktur Proyek
+    ```
+    ## 📂 Struktur Proyek
 
 ```
 bel-sekolah/
@@ -77,9 +59,6 @@ bel-sekolah/
 │── requirements.txt
 │── README.md
 ```
-
----
-
 ## 📝 Catatan
 
 * Pastikan **zona waktu komputer** sesuai dengan jam lokal sekolah.
@@ -90,26 +69,16 @@ bel-sekolah/
   * Apakah format audio didukung.
   * Volume komputer aktif.
 
----
-
 ## 📌 Pengembangan Selanjutnya
 
 * Tambahkan **export/import jadwal** ke Excel/CSV.
 * Tambahkan **notifikasi visual** ketika bel berbunyi.
 * Integrasi dengan **Raspberry Pi** untuk sistem bel fisik.
-
----
-
 ## 👨‍💻 Kontributor
 
 * **Safrizal** – Developer & Maintainer
-
----
-
 ## 📜 Lisensi
-
+[MIT](https://choosealicense.com/licenses/mit/)
 Proyek ini menggunakan lisensi **MIT** – silakan gunakan, modifikasi, dan kembangkan sesuai kebutuhan.
 
 ```
-
-
